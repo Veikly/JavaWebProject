@@ -19,7 +19,7 @@
     <a href="adminUser/list">管理员列表</a> <a href="adminUser/add.do">添加管理员</a>
     <a href="order/list">订单列表</a>
     <%-- 管理员已登录 --%>
-    <a href="reset?id=${admin.id }">重置密码</a>
+    <a href="adminUser/reset">重置密码</a>
     <a href="logout">退出</a>
 </div>
 <hr>
