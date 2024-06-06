@@ -18,6 +18,10 @@ public class AdminUserDaoImpl extends BaseDao implements AdminUserDao {
             return adminUserList.get(0);
         }
         return null;
+
+
+
+
     }
     @Override
     public AdminUser find(String name, String password) {
