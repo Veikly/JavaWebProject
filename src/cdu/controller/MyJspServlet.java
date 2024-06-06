@@ -13,5 +13,7 @@ public class MyJspServlet extends HttpServlet {
         path = path.replace(req.getContextPath(), "/WEB-INF/jsp");
         path = path.replace(".do", ".jsp");
         req.getRequestDispatcher(path).forward(req, resp);
+
+
     }
 }

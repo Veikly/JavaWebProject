@@ -193,6 +193,7 @@ public class BookDaoImpl extends BaseDao implements BookDao {
             ResultSet rs = stmt.executeQuery(sql);
             while (rs.next()) {
                 num = rs.getInt(1);
+
             }
         } catch (SQLException e) {
             System.out.println("DAO查询图书数量出错：" + sql + "," + e.getMessage());
